@@ -1,7 +1,10 @@
+# 유튜브의 재생목록 화면 URL을 넣어서
+# 해당 재생목록 안에 있는 동영상들의 총 재생시간을 구합니다.
+
 from bs4 import BeautifulSoup
 import urllib.request as req
 
-url = "https://www.youtube.com/playlist?list=PLuHgQVnccGMDMxfZEpLbzHPZUEwObEaZq&app=desktop"
+url = "원하는 URL 삽입"
 
 res = req.urlopen(url)
 soup = BeautifulSoup(res, "html.parser")
