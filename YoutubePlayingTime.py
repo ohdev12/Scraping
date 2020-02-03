@@ -1,8 +1,6 @@
 # 유튜브의 재생목록 화면 URL을 넣어서
 # 해당 재생목록 안에 있는 동영상들의 총 재생시간을 구합니다.
 
-#git branch test
-
 from bs4 import BeautifulSoup
 import urllib.request as req
 
